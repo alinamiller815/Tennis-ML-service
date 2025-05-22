@@ -1,0 +1,53 @@
+{
+    "basic": {
+        "filename": "models/basic_model.joblib",
+        "features": [
+            "player1_rank",
+            "player2_rank",
+            "player1_hand",
+            "player2_hand",
+            "surface"
+        ],
+        "accuracy": 0.660185562986748
+    },
+    "extended": {
+        "filename": "models/extended_model.joblib",
+        "features": [
+            "player1_rank",
+            "player2_rank",
+            "player1_hand",
+            "player2_hand",
+            "surface",
+            "player1_age",
+            "player2_age",
+            "player1_height",
+            "player2_height",
+            "player1_wins_last_year",
+            "player2_wins_last_year"
+        ],
+        "accuracy": 0.7260343451187709
+    },
+    "premium": {
+        "filename": "models/premium_model.joblib",
+        "features": [
+            "player1_rank",
+            "player2_rank",
+            "player1_hand",
+            "player2_hand",
+            "surface",
+            "player1_age",
+            "player2_age",
+            "player1_height",
+            "player2_height",
+            "player1_wins_last_year",
+            "player2_wins_last_year",
+            "player1_losses_last_year",
+            "player2_losses_last_year",
+            "player1_aces",
+            "player2_aces",
+            "tournament_level",
+            "round"
+        ],
+        "accuracy": 0.8073281413542904
+    }
+}
